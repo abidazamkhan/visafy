@@ -1,0 +1,121 @@
+/* =========================== Accordion Css start ============================= */
+.common-accordion {
+    .accordion-item {
+        &:not(:last-child) {
+            margin-block-end: 20px;
+        }
+    }
+
+    &:first-of-type .accordion-button.collapsed {
+        border-radius: 5px;
+    }
+
+    &:last-of-type .accordion-button.collapsed {
+        border-radius: 5px;
+    }
+
+    .accordion-button {
+        &::after {
+            background-image: none;
+        }
+
+        &:focus {
+            box-shadow: none;
+        }
+
+        &:not(.collapsed) {
+            background-color: transparent !important;
+            box-shadow: none;
+            color: var(--main-600);
+
+            &::after {
+                background-image: none;
+                color: var(--main-600);
+            }
+        }
+
+        &[aria-expanded="true"],
+        &[aria-expanded="false"] {
+            &::after {
+                font-family: "Phosphor";
+                font-weight: 900;
+                content: "\f106";
+                color: var(--main-600);
+                display: inline-block;
+                position: absolute;
+                inset-block-start: 50%;
+                transform: translateY(-50%);
+                inset-inline-end: 30px;
+                height: unset;
+                text-align: center;
+
+                @include msm-screen {
+                    inset-inline-end: 20px;
+                }
+            }
+        }
+
+        &[aria-expanded="false"] {
+            &::after {
+                content: "\f107";
+                color: hsl(var(--heading-color));
+            }
+        }
+    }
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff !important;
+    color: #032532 !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-item {
+    background-color: transparent;
+    border: none !important;
+}
+
+.accordion-button::after {
+    content: "\e3d4";
+    font-family: "Phosphor";
+    background-image: none;
+    font-size: 20px;
+    top: 50%;
+    position: absolute;
+    inset-inline-end: 24px;
+    transform: translateY(-50%);
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: "\E32A";
+    font-family: "Phosphor";
+    background-image: none !important;
+    font-size: 20px;
+}
+
+.accordion-item-two {
+    border: 1px solid #d1d1d1 !important;
+    border-radius: 20px !important;
+}
+
+.accordion-item-three {
+    border: 1px solid #04121F14 !important;
+}
+
+
+
+.form-check-input:checked {
+    background-color: #00CC99 !important;
+    color: #fff !important;
+    border-color: #00CC99;
+}
+
+.accordion-button {
+    border-radius: inherit;
+}
+
+/* ================================= Accordion Css End =========================== */

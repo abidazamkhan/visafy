@@ -1,0 +1,74 @@
+/* Border Radius Css Start */
+.tw-rounded {
+   border-radius: 0.25rem; /* 4px */
+   &-none {
+      border-radius: 0px;
+   }
+   &-sm {
+      border-radius: 0.125rem; /* 2px */
+   }
+   &-md {
+      border-radius: 0.375rem; /* 6px */
+   }
+   &-lg {
+      border-radius: 0.5rem; /* 8px */
+   }
+   &-xl {
+      border-radius: 0.75rem; /* 12px */
+   }
+   &-2xl {
+      border-radius: 1rem; /* 16px */
+   }
+   &-3xl {
+      border-radius: 1.5rem; /* 24px */
+   }
+   &-4xl {
+      border-radius: 2rem; /* 32px */
+   }
+   &-5xl {
+      border-radius: 2.5rem; /* 40px */
+   }
+}
+/* Border Radius Css End */
+
+.tw-border-radius-top-left-right-50-persent {
+   border-top-left-radius: 50%;
+   border-top-right-radius: 50%;
+}
+.tw-rounded-40-px {
+   border-radius: 40px;
+}
+.tw-rounded-50-px {
+   border-radius: 50px 0 0 50px;
+}
+.tw-clicp-pate-business {
+   clip-path: polygon(100% 0, 0 0, 50% 100%);
+}
+.tw-border-radius-top-14-px {
+   border-radius: 14px 14px 0 0;
+}
+.tw-border-radius-bottom-14-px {
+   border-radius: 0 0 14px 14px;
+}
+.tw-border-radius-bottom-20-px {
+   border-radius: 0 0 20px 20px;
+}
+.tw-rounded-top-24-px {
+   border-radius: 24px 24px 0 0;
+}
+
+.rounded-pill-style-one {
+   border-radius: 50rem 50rem 6rem 6rem;
+}
+
+.rounded-pill-style-two {
+   border-radius: 6rem 6rem 50rem 50rem;
+}
+
+.hover-rounded-pill:hover {
+   border-radius: 50rem !important;
+}
+
+.hover-rounded-xl:hover {
+   border-radius: 0.75rem !important;
+}

@@ -1,0 +1,49 @@
+/* Swiper slider css start */
+.left-right-gradient::before,
+.left-right-gradient::after {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 100%;
+    inset-inline-start: 0;
+    inset-block-start: 0;
+    background: linear-gradient(90deg, var(--neutral-50), transparent);
+    z-index: 2;
+}
+
+.left-right-gradient::after {
+    background: linear-gradient(90deg, transparent, var(--neutral-50));
+    inset-inline-start: auto;
+    inset-inline-end: 0;
+}
+
+.gradient-start-white {
+    &::before {
+        background: linear-gradient(270deg, transparent, #fff);
+    }
+
+    &::after {
+        background: linear-gradient(90deg, transparent, #fff);
+    }
+}
+
+
+.top-bottom-gradient::before,
+.top-bottom-gradient::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 120px;
+    inset-inline-start: 0;
+    inset-block-start: 0;
+    background: linear-gradient(180deg, var(--main-two-600), transparent);
+    z-index: 2;
+}
+
+.top-bottom-gradient::after {
+    background: linear-gradient(180deg, transparent, var(--main-two-600));
+    inset-block-start: auto;
+    inset-block-end: 0;
+}
+
+/* Swiper slider css end */

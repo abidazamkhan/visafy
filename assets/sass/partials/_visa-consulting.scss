@@ -1,0 +1,14 @@
+
+.nunber-gradient::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #3d66f800 0%, #FFFFFF 74.71%);
+}
+
+.work-process-wrapper [class*="col"]:nth-child(odd) {
+    @media (min-width: 1200px) {
+        margin-top: 40px;
+    }
+}

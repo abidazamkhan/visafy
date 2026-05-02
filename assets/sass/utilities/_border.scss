@@ -1,0 +1,115 @@
+// border
+@each $color, $shades in $colors {
+  @each $shade, $value in $shades {
+    .border-#{$color}-#{$shade} {
+      border-color: var(--#{$color}-#{$shade}) !important;
+    }
+  }
+}
+
+// hover border
+@each $color, $shades in $colors {
+  @each $shade, $value in $shades {
+    .hover-border-#{$color}-#{$shade} {
+      &:hover {
+        border-color: var(--#{$color}-#{$shade}) !important;
+      }
+    }
+  }
+}
+
+// focus border
+@each $color, $shades in $colors {
+  @each $shade, $value in $shades {
+    .focus-border-#{$color}-#{$shade} {
+      &:focus {
+        border-color: var(--#{$color}-#{$shade}) !important;
+      }
+    }
+  }
+}
+
+.tw-border {
+  &-dashed {
+    border-style: dashed !important;
+  }
+}
+
+.border-transparent {
+  border-color: transparent !important;
+}
+
+
+.tw-border-pink-50 {
+  border: 1px solid #E5DBDB
+}
+
+.tw-border-black-7-persent {
+  border: 1px solid #00000012;
+}
+
+.tw-border-black-9-persent {
+  border: 1px dashed #00000017;
+}
+
+.tw-border-black-15-persent {
+  border-bottom: 1px solid #00000026;
+
+  @media (max-width: 992px) {
+    border: none;
+  }
+}
+
+.tw-border-services-two-black-29-persent {
+  border: 1px solid #00000029;
+}
+
+.tw-border-blog-two {
+  border: 1px solid #0053621A;
+}
+
+.tw-border-services-two {
+  border: 1px dashed #B5A8A7;
+}
+
+.tw-border-blog-bottom-two {
+  border: 1px solid #B3B5B4;
+}
+
+.tw-border-white-12-persent {
+  border-top: 1px dashed #FFFFFF1F;
+}
+
+.border-white-12 {
+  border-color: #FFFFFF1F !important;
+}
+
+.tw-border-gradient-dashed {
+  border-top: 1px dashed #D1D1D19E;
+}
+
+.border-bottom-neutral-10-persent {
+  border-bottom: 1px solid #0017261A;
+}
+
+.border-bottom-paragrap-550 {
+  border-bottom: 1px solid #5C5C5B;
+}
+
+.border-get-start-three {
+  border: 1px solid #E2E7EC;
+}
+
+.tw-border-get-start-three {
+  border: 1px solid #FFFFFF4A;
+}
+
+.tw-border-neutral-01 {
+  border: 1px solid #E4E5EE;
+}
+
+.tw-border-start-primary {
+  width: 5px;
+  height: 95px;
+  background-color: #0E538C;
+}

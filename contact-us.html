@@ -1,0 +1,1615 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Visafy is a professional visa consulting and immigration services HTML template. Ideal for student visas, work permits, travel visas, PR consulting, and global immigration agencies. Fully responsive and easy to customize."
+    />
+    <meta
+      name="keywords"
+      content="Visa Consulting HTML Template, Immigration Consultant, Student Visa, Work Visa, Travel Visa, PR Consulting, Immigration Agency Website, Visa Services, Bootstrap Visa Template, Responsive Visa Website"
+    />
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>Visafy - Visa Consulting & Immigration Services HTML Template</title>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/logo/favicon.png" type="image/png" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- swiper bundle -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <!-- aos -->
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+
+  <body>
+    <!--==================== Preloader Start ====================-->
+    <div class="loader-mask">
+      <div class="loader">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!--==================== Preloader End ====================-->
+
+    <!-- ========================== Settings Panel start ==================================== -->
+    <div
+      class="settings-panel position-fixed top-50 translate-middle-y tw-z-999 d-flex align-items-center"
+    >
+      <button
+        type="button"
+        class="settings-button tw-w-12 tw-h-12 bg-main-600 text-white hover-bg-main-800 tw-duration-100 d-flex justify-content-center align-items-center"
+      >
+        <i
+          class="ph-fill ph-gear-six setting-icon tw-text-2xl tw-leading-none animation-rotate tw-w-6 tw-h-6"
+        ></i>
+        <i
+          class="ph-bold ph-x close-icon tw-text-2xl tw-leading-none tw-w-6 tw-h-6"
+        ></i>
+      </button>
+
+      <div
+        class="settings-panel__content bg-white tw-px-6 tw-py-13 d-flex flex-column tw-gap-10 scroll-sm overflow-y-auto"
+      >
+        <div class="d-flex flex-column tw-gap-10">
+          <div class="">
+            <h6
+              class="settings-panel__title text-center tw-mb-6 text-uppercase"
+            >
+              Cursor
+            </h6>
+            <div
+              class="settings-panel__buttons cursor__buttons d-flex tw-gap-4"
+            >
+              <button
+                type="button"
+                class="settings-panel__button cursor-animate bg-main-two-600 hover-bg-main-600 tw-duration-300 text-white tw-text-base tw-py-305 tw-px-3 fw-medium active-scale-094 flex-grow-1 active"
+              >
+                Animate
+              </button>
+              <button
+                type="button"
+                class="settings-panel__button cursor-default bg-main-two-600 hover-bg-main-600 tw-duration-300 text-white tw-text-base tw-py-305 tw-px-3 fw-medium active-scale-094 flex-grow-1"
+              >
+                Default
+              </button>
+            </div>
+          </div>
+          <div class="">
+            <h6
+              class="settings-panel__title text-center tw-mb-6 text-uppercase"
+            >
+              Direction
+            </h6>
+            <div class="settings-panel__buttons d-flex tw-gap-4">
+              <button
+                type="button"
+                class="settings-panel__button direction-ltr bg-main-two-600 hover-bg-main-600 tw-duration-300 text-white tw-text-base tw-py-305 tw-px-3 fw-medium active-scale-094 flex-grow-1 active"
+              >
+                LTR
+              </button>
+              <button
+                type="button"
+                class="settings-panel__button direction-rtl bg-main-two-600 hover-bg-main-600 tw-duration-300 text-white tw-text-base tw-py-305 tw-px-3 fw-medium active-scale-094 flex-grow-1"
+              >
+                RTL
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========================== Settings Panel end ==================================== -->
+
+    <!--==================== Overlay Start ====================-->
+    <div class="overlay"></div>
+    <!--==================== Overlay End ====================-->
+
+    <!--==================== Sidebar Overlay End ====================-->
+    <div class="side-overlay"></div>
+    <!--==================== Sidebar Overlay End ====================-->
+
+    <!-- Custom Toast Message start -->
+    <div id="toast-container"></div>
+    <!-- Custom Toast Message End -->
+
+    <!-- ==================== Scroll to Top End Here ==================== -->
+    <div class="progress-wrap cursor-big">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+    <!-- ==================== Scroll to Top End Here ==================== -->
+
+    <!-- Custom Cursor Start -->
+    <div class="cursor"></div>
+    <span class="dot"></span>
+    <!-- Custom Cursor End -->
+
+    <!-- ==================== Mobile Menu Start Here ==================== -->
+    <div
+      class="mobile-menu d-lg-none d-block scroll-sm position-fixed bg-white tw-w-300-px tw-h-screen overflow-y-auto tw-p-6 tw-z-999 tw--translate-x-full tw-pb-68"
+    >
+      <button
+        type="button"
+        class="close-button position-absolute tw-end-0 top-0 tw-me-2 tw-mt-2 tw-w-605 tw-h-605 rounded-circle d-flex justify-content-center align-items-center text-neutral-900 bg-neutral-200 hover-bg-neutral-900 hover-text-white"
+      >
+        <i class="ph ph-x"></i>
+      </button>
+
+      <div class="mobile-menu__inner">
+        <a href="index.html" class="mobile-menu__logo">
+          <img src="assets/images/logo/logo.png" alt="Logo" />
+        </a>
+        <div class="mobile-menu__menu">
+          <!-- Nav menu Start -->
+          <ul
+            class="nav-menu d-lg-flex align-items-center nav-menu--mobile d-block tw-mt-8"
+          >
+            <li class="nav-menu__item activePage">
+              <a
+                href="index.html"
+                class="nav-menu__link text-heading tw-py-7 fw-medium w-100"
+                >Home</a
+              >
+
+              <!-- mega menu start -->
+              <div
+                class="mega-menu tw-p-6 tw-rounded-lg scroll-sm nav-submenu position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md tw-duration-200 tw-z-99"
+              >
+                <div class="row g-4 row-cols-1 row-cols-lg-3 row-cols-xl-4">
+                  <div class="col">
+                    <div class="mega-menu-item group-item">
+                      <div
+                        class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden"
+                      >
+                        <a href="index.html" class="d-block">
+                          <img
+                            src="assets/images/thumbs/home-img1.png"
+                            alt="Home Page Image"
+                            class="tw-h-440-px w-100 object-fit-cover object-top"
+                          />
+                        </a>
+                        <div class="d-lg-flex d-none">
+                          <div
+                            class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none"
+                          ></div>
+                          <div
+                            class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1"
+                          >
+                            <a
+                              href="index.html"
+                              class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-3 group active--translate-y-2 tw-p-2 tw-ps-5 rounded-pill"
+                              data-block="button"
+                            >
+                              <span class="button__flair"></span>
+                              <span class="button__label">Live Preview</span>
+                              <span
+                                class="tw-w-9 tw-h-9 bg-white text-main-600 tw-text-xl rounded-circle d-flex justify-content-center align-items-center position-relative tw-duration-500"
+                              >
+                                <i class="ph-bold ph-arrow-right"></i>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tw-mt-4 text-center">
+                        <a
+                          href="index.html"
+                          class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1"
+                          >Trusted Immigration</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="mega-menu-item group-item">
+                      <div
+                        class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden"
+                      >
+                        <a href="index-2.html" class="d-block">
+                          <img
+                            src="assets/images/thumbs/home-img2.png"
+                            alt="Home Page Image"
+                            class="tw-h-440-px w-100 object-fit-cover object-top"
+                          />
+                        </a>
+                        <div class="d-lg-flex d-none">
+                          <div
+                            class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none"
+                          ></div>
+                          <div
+                            class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1"
+                          >
+                            <a
+                              href="index-2.html"
+                              class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-3 group active--translate-y-2 tw-p-2 tw-ps-5 rounded-pill"
+                              data-block="button"
+                            >
+                              <span class="button__flair"></span>
+                              <span class="button__label">Live Preview</span>
+                              <span
+                                class="tw-w-9 tw-h-9 bg-white text-main-600 tw-text-xl rounded-circle d-flex justify-content-center align-items-center position-relative tw-duration-500"
+                              >
+                                <i class="ph-bold ph-arrow-right"></i>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tw-mt-4 text-center">
+                        <a
+                          href="index-2.html"
+                          class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1"
+                          >Student Visa</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="mega-menu-item group-item">
+                      <div
+                        class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden"
+                      >
+                        <a href="index-3.html" class="d-block">
+                          <img
+                            src="assets/images/thumbs/home-img3.png"
+                            alt="Home Page Image"
+                            class="tw-h-440-px w-100 object-fit-cover object-top"
+                          />
+                        </a>
+                        <div class="d-lg-flex d-none">
+                          <div
+                            class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none"
+                          ></div>
+                          <div
+                            class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1"
+                          >
+                            <a
+                              href="index-3.html"
+                              class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-3 group active--translate-y-2 tw-p-2 tw-ps-5 rounded-pill"
+                              data-block="button"
+                            >
+                              <span class="button__flair"></span>
+                              <span class="button__label">Live Preview</span>
+                              <span
+                                class="tw-w-9 tw-h-9 bg-white text-main-600 tw-text-xl rounded-circle d-flex justify-content-center align-items-center position-relative tw-duration-500"
+                              >
+                                <i class="ph-bold ph-arrow-right"></i>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tw-mt-4 text-center">
+                        <a
+                          href="index-3.html"
+                          class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1"
+                          >Visa Experts</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="mega-menu-item group-item">
+                      <div
+                        class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden"
+                      >
+                        <a href="index-4.html" class="d-block">
+                          <img
+                            src="assets/images/thumbs/home-img4.png"
+                            alt="Home Page Image"
+                            class="tw-h-440-px w-100 object-fit-cover object-top"
+                          />
+                        </a>
+                        <div class="d-lg-flex d-none">
+                          <div
+                            class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none"
+                          ></div>
+                          <div
+                            class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1"
+                          >
+                            <a
+                              href="index-4.html"
+                              class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-3 group active--translate-y-2 tw-p-2 tw-ps-5 rounded-pill"
+                              data-block="button"
+                            >
+                              <span class="button__flair"></span>
+                              <span class="button__label">Live Preview</span>
+                              <span
+                                class="tw-w-9 tw-h-9 bg-white text-main-600 tw-text-xl rounded-circle d-flex justify-content-center align-items-center position-relative tw-duration-500"
+                              >
+                                <i class="ph-bold ph-arrow-right"></i>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tw-mt-4 text-center">
+                        <a
+                          href="index-4.html"
+                          class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1"
+                          >Visa Processing</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="mega-menu-item group-item">
+                      <div
+                        class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden"
+                      >
+                        <span class="d-block">
+                          <img
+                            src="assets/images/thumbs/coming-soon-img.png"
+                            alt="Home Page Image"
+                            class="tw-h-440-px w-100 object-fit-cover object-top"
+                          />
+                        </span>
+                      </div>
+                      <div class="tw-mt-4 text-center">
+                        <span
+                          class="text-heading fw-semibold tw-text-md text-capitalize line-clamp-1"
+                          >Home 5</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="mega-menu-item group-item">
+                      <div
+                        class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden"
+                      >
+                        <span class="d-block">
+                          <img
+                            src="assets/images/thumbs/coming-soon-img.png"
+                            alt="Home Page Image"
+                            class="tw-h-440-px w-100 object-fit-cover object-top"
+                          />
+                        </span>
+                      </div>
+                      <div class="tw-mt-4 text-center">
+                        <span
+                          class="text-heading fw-semibold tw-text-md text-capitalize line-clamp-1"
+                          >Home 6</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="mega-menu-item group-item">
+                      <div
+                        class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden"
+                      >
+                        <span class="d-block">
+                          <img
+                            src="assets/images/thumbs/coming-soon-img.png"
+                            alt="Home Page Image"
+                            class="tw-h-440-px w-100 object-fit-cover object-top"
+                          />
+                        </span>
+                      </div>
+                      <div class="tw-mt-4 text-center">
+                        <span
+                          class="text-heading fw-semibold tw-text-md text-capitalize line-clamp-1"
+                          >Home 7</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="mega-menu-item group-item">
+                      <div
+                        class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden"
+                      >
+                        <span class="d-block">
+                          <img
+                            src="assets/images/thumbs/coming-soon-img.png"
+                            alt="Home Page Image"
+                            class="tw-h-440-px w-100 object-fit-cover object-top"
+                          />
+                        </span>
+                      </div>
+                      <div class="tw-mt-4 text-center">
+                        <span
+                          class="text-heading fw-semibold tw-text-md text-capitalize line-clamp-1"
+                          >Home 8</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- mega menu end -->
+            </li>
+            <li class="nav-menu__item has-submenu position-relative">
+              <a
+                href="javascript:void(0)"
+                class="nav-menu__link tw-pe-5 text-heading tw-py-7 fw-medium w-100"
+                >Company</a
+              >
+              <ul
+                class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99 overflow-y-scroll"
+              >
+                <li
+                  class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+                >
+                  <a
+                    href="about-us.html"
+                    class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                  >
+                    About us</a
+                  >
+                </li>
+               
+                <li
+                  class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+                >
+                  <a
+                    href="booking.html"
+                    class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                  >
+                    Booking</a
+                  >
+                </li>
+                <li
+                  class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+                >
+                  <a
+                    href="coaching.html"
+                    class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                  >
+                    Coaching</a
+                  >
+                </li>
+                
+                <li
+                  class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+                >
+                  <a
+                    href="visa.html"
+                    class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                  >
+                    Visa</a
+                  >
+                </li>
+                
+                <li
+                  class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+                >
+                  <a
+                    href="team.html"
+                    class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                  >
+                    Team</a
+                  >
+                </li>
+               
+              </ul>
+            </li>
+            <li class="nav-menu__item has-submenu position-relative">
+              <a
+                href="javascript:void(0)"
+                class="nav-menu__link tw-pe-5 text-heading tw-py-7 fw-medium w-100"
+                >Services</a
+              >
+              <ul
+                class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99"
+              >
+                <li
+                  class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+                >
+                  <a
+                    href="services.html"
+                    class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                  >
+                    Services</a
+                  >
+                </li>
+                <li
+                  class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+                >
+                  <a
+                    href="services-details.html"
+                    class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                  >
+                    Services Details</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-menu__item has-submenu position-relative">
+              <a
+                href="javascript:void(0)"
+                class="nav-menu__link tw-pe-5 text-heading tw-py-7 fw-medium w-100"
+                >Blog</a
+              >
+              <ul
+                class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99"
+              >
+                <li
+                  class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+                >
+                  <a
+                    href="blog.html"
+                    class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                  >
+                    Blog Classic</a
+                  >
+                </li>
+                <li
+                  class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+                >
+                  <a
+                    href="blog-details.html"
+                    class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                  >
+                    Blog Details</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-menu__item">
+              <a
+                href="contact-us.html"
+                class="nav-menu__link text-heading tw-py-7 fw-medium w-100"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <!-- Nav menu End  -->
+        </div>
+      </div>
+    </div>
+    <!-- ==================== Mobile Menu End Here ==================== -->
+
+    <!-- ======================== Header top start ======================== -->
+    <div class="bg-main-two-600 tw-py-3">
+      <div class="container max-w-1650-px">
+        <div class="d-flex align-items-center tw-gap-2 justify-content-between">
+          <div class="d-flex align-items-center tw-gap-2 flex-wrap">
+            <span class="tw-text-5 text-white">
+              <i class="ph-bold ph-chat-circle-dots"></i>
+            </span>
+            <span class="text-white fw-semibold tw-text-305">
+              Helpline: +1 (555) 123-4567
+            </span>
+            <span
+              class="tw-w-1 tw-h-1 bg-white rounded-circle d-lg-block d-none"
+            ></span>
+            <span class="text-white fw-semibold tw-text-305">
+              info@visafy.com
+            </span>
+            <span
+              class="tw-w-1 tw-h-1 bg-white rounded-circle d-lg-block d-none"
+            ></span>
+            <span class="text-white fw-semibold tw-text-305 d-sm-block d-none">
+              54 Berrick St Boston MA 02115
+            </span>
+          </div>
+          <div class="d-xl-block d-none">
+            <div class="d-flex align-items-center tw-gap-2">
+              <span class="tw-text-5 text-green-600">
+                <i class="ph-bold ph-map-pin"></i>
+              </span>
+              <p class="text-white fw-semibold tw-text-305">
+                Updates: Delivers secure Packaging Equipments to North Macedonia
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ======================== Header top end ======================== -->
+
+    <!-- ==================== Header Start Here ==================== -->
+    <header class="header bg-white tw-transition-all tw-z-99">
+      <div class="container max-w-1650-px">
+        <nav
+          class="d-flex align-items-center justify-content-between position-relative"
+        >
+          <!-- Logo Start -->
+          <div class="logo">
+            <a href="index.html" class="link">
+              <img
+                src="assets/images/logo/logo.png"
+                alt="Logo"
+                class="max-w-200-px"
+              />
+            </a>
+          </div>
+          <!-- Logo End  -->
+
+          <!-- Menu Start  -->
+          <div class="header-menu d-xl-block d-none">
+            <!-- Nav menu Start -->
+            <ul class="nav-menu d-lg-flex align-items-center tw-gap-6">
+              <li class="nav-menu__item activePage">
+                <a
+                  href="index.html"
+                  class="nav-menu__link text-heading tw-py-7 fw-medium w-100"
+                  >Home</a
+                >
+
+                <!-- mega menu start -->
+                <div
+                  class="mega-menu tw-p-6 tw-rounded-lg scroll-sm nav-submenu position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md tw-duration-200 tw-z-99"
+                >
+                  <div class="row g-4 row-cols-1 row-cols-lg-3 row-cols-xl-4">
+                    <div class="col">
+                      <div class="mega-menu-item group-item">
+                        <div
+                          class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden"
+                        >
+                          <a href="index.html" class="d-block">
+                            <img
+                              src="assets/images/thumbs/home-img1.png"
+                              alt="Home Page Image"
+                              class="tw-h-440-px w-100 object-fit-cover object-top"
+                            />
+                          </a>
+                          <div class="d-lg-flex d-none">
+                            <div
+                              class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none"
+                            ></div>
+                            <div
+                              class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1"
+                            >
+                              <a
+                                href="index.html"
+                                class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-3 group active--translate-y-2 tw-p-2 tw-ps-5 rounded-pill"
+                                data-block="button"
+                              >
+                                <span class="button__flair"></span>
+                                <span class="button__label">Live Preview</span>
+                                <span
+                                  class="tw-w-9 tw-h-9 bg-white text-main-600 tw-text-xl rounded-circle d-flex justify-content-center align-items-center position-relative tw-duration-500"
+                                >
+                                  <i class="ph-bold ph-arrow-right"></i>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tw-mt-4 text-center">
+                          <a
+                            href="index.html"
+                            class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1"
+                            >Trusted Immigration</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="mega-menu-item group-item">
+                        <div
+                          class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden"
+                        >
+                          <a href="index-2.html" class="d-block">
+                            <img
+                              src="assets/images/thumbs/home-img2.png"
+                              alt="Home Page Image"
+                              class="tw-h-440-px w-100 object-fit-cover object-top"
+                            />
+                          </a>
+                          <div class="d-lg-flex d-none">
+                            <div
+                              class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none"
+                            ></div>
+                            <div
+                              class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1"
+                            >
+                              <a
+                                href="index-2.html"
+                                class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-3 group active--translate-y-2 tw-p-2 tw-ps-5 rounded-pill"
+                                data-block="button"
+                              >
+                                <span class="button__flair"></span>
+                                <span class="button__label">Live Preview</span>
+                                <span
+                                  class="tw-w-9 tw-h-9 bg-white text-main-600 tw-text-xl rounded-circle d-flex justify-content-center align-items-center position-relative tw-duration-500"
+                                >
+                                  <i class="ph-bold ph-arrow-right"></i>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tw-mt-4 text-center">
+                          <a
+                            href="index-2.html"
+                            class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1"
+                            >Student Visa</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="mega-menu-item group-item">
+                        <div
+                          class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden"
+                        >
+                          <a href="index-3.html" class="d-block">
+                            <img
+                              src="assets/images/thumbs/home-img3.png"
+                              alt="Home Page Image"
+                              class="tw-h-440-px w-100 object-fit-cover object-top"
+                            />
+                          </a>
+                          <div class="d-lg-flex d-none">
+                            <div
+                              class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none"
+                            ></div>
+                            <div
+                              class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1"
+                            >
+                              <a
+                                href="index-3.html"
+                                class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-3 group active--translate-y-2 tw-p-2 tw-ps-5 rounded-pill"
+                                data-block="button"
+                              >
+                                <span class="button__flair"></span>
+                                <span class="button__label">Live Preview</span>
+                                <span
+                                  class="tw-w-9 tw-h-9 bg-white text-main-600 tw-text-xl rounded-circle d-flex justify-content-center align-items-center position-relative tw-duration-500"
+                                >
+                                  <i class="ph-bold ph-arrow-right"></i>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tw-mt-4 text-center">
+                          <a
+                            href="index-3.html"
+                            class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1"
+                            >Visa Experts</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="mega-menu-item group-item">
+                        <div
+                          class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden"
+                        >
+                          <a href="index-4.html" class="d-block">
+                            <img
+                              src="assets/images/thumbs/home-img4.png"
+                              alt="Home Page Image"
+                              class="tw-h-440-px w-100 object-fit-cover object-top"
+                            />
+                          </a>
+                          <div class="d-lg-flex d-none">
+                            <div
+                              class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none"
+                            ></div>
+                            <div
+                              class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1"
+                            >
+                              <a
+                                href="index-4.html"
+                                class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-3 group active--translate-y-2 tw-p-2 tw-ps-5 rounded-pill"
+                                data-block="button"
+                              >
+                                <span class="button__flair"></span>
+                                <span class="button__label">Live Preview</span>
+                                <span
+                                  class="tw-w-9 tw-h-9 bg-white text-main-600 tw-text-xl rounded-circle d-flex justify-content-center align-items-center position-relative tw-duration-500"
+                                >
+                                  <i class="ph-bold ph-arrow-right"></i>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tw-mt-4 text-center">
+                          <a
+                            href="index-4.html"
+                            class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1"
+                            >Visa Processing</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="mega-menu-item group-item">
+                        <div
+                          class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden"
+                        >
+                          <span class="d-block">
+                            <img
+                              src="assets/images/thumbs/coming-soon-img.png"
+                              alt="Home Page Image"
+                              class="tw-h-440-px w-100 object-fit-cover object-top"
+                            />
+                          </span>
+                        </div>
+                        <div class="tw-mt-4 text-center">
+                          <span
+                            class="text-heading fw-semibold tw-text-md text-capitalize line-clamp-1"
+                            >Home 5</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="mega-menu-item group-item">
+                        <div
+                          class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden"
+                        >
+                          <span class="d-block">
+                            <img
+                              src="assets/images/thumbs/coming-soon-img.png"
+                              alt="Home Page Image"
+                              class="tw-h-440-px w-100 object-fit-cover object-top"
+                            />
+                          </span>
+                        </div>
+                        <div class="tw-mt-4 text-center">
+                          <span
+                            class="text-heading fw-semibold tw-text-md text-capitalize line-clamp-1"
+                            >Home 6</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="mega-menu-item group-item">
+                        <div
+                          class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden"
+                        >
+                          <span class="d-block">
+                            <img
+                              src="assets/images/thumbs/coming-soon-img.png"
+                              alt="Home Page Image"
+                              class="tw-h-440-px w-100 object-fit-cover object-top"
+                            />
+                          </span>
+                        </div>
+                        <div class="tw-mt-4 text-center">
+                          <span
+                            class="text-heading fw-semibold tw-text-md text-capitalize line-clamp-1"
+                            >Home 7</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="mega-menu-item group-item">
+                        <div
+                          class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden"
+                        >
+                          <span class="d-block">
+                            <img
+                              src="assets/images/thumbs/coming-soon-img.png"
+                              alt="Home Page Image"
+                              class="tw-h-440-px w-100 object-fit-cover object-top"
+                            />
+                          </span>
+                        </div>
+                        <div class="tw-mt-4 text-center">
+                          <span
+                            class="text-heading fw-semibold tw-text-md text-capitalize line-clamp-1"
+                            >Home 8</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- mega menu end -->
+              </li>
+              <li class="nav-menu__item has-submenu position-relative">
+                <a
+                  href="javascript:void(0)"
+                  class="nav-menu__link tw-pe-5 text-heading tw-py-7 fw-medium w-100"
+                  >Company</a
+                >
+                <ul
+                  class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99 overflow-y-scroll"
+                >
+                  <li
+                    class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+                  >
+                    <a
+                      href="about-us.html"
+                      class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                    >
+                      About us</a
+                    >
+                  </li>
+                  
+                  <li
+                    class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+                  >
+                    <a
+                      href="booking.html"
+                      class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                    >
+                      Booking</a
+                    >
+                  </li>
+                  <li
+                    class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+                  >
+                    <a
+                      href="coaching.html"
+                      class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                    >
+                      Coaching</a
+                    >
+                  </li>
+                 
+                  <li
+                    class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+                  >
+                    <a
+                      href="visa.html"
+                      class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                    >
+                      Visa</a
+                    >
+                  </li>
+                  
+                  <li
+                    class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"
+                  >
+                    <a
+                      href="team.html"
+                      class="nav-submenu__link hover-bg-neutral-200 text-heading fw-medium w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                    >
+                      Team</a
+                    >
+                  </li>
+                  
+                </ul>
+              </li>
+            <li class="nav-menu__item">
+                <a
+                  href="services.html"
+                  class="nav-menu__link text-heading tw-py-7 fw-medium w-100"
+                  >Service</a
+                >
+              </li>
+             <li class="nav-menu__item">
+                <a
+                  href="blog.html"
+                  class="nav-menu__link text-heading tw-py-7 fw-medium w-100"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-menu__item">
+                <a
+                  href="contact-us.html"
+                  class="nav-menu__link text-heading tw-py-7 fw-medium w-100"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <!-- Nav menu End  -->
+          </div>
+          <!-- Menu End  -->
+
+          <!-- Header Right start -->
+          <div class="d-flex align-items-center tw-gap-6 flex-shrink-0">
+            <div class="d-xxl-block d-none">
+              <div class="d-flex align-items-center tw-gap-2">
+                <span class="tw-text-6 text-green-600">
+                  <i class="ph-bold ph-device-tablet-speaker"></i>
+                </span>
+                <div>
+                  <span
+                    class="fw-medium tw-text-305 text-neutral-600 tw-mb-1 d-block"
+                  >
+                    Need any Help! call Us today
+                  </span>
+                  <a
+                    href="tel:+15551234567"
+                    class="fw-bold text-green-950 tw-text-4 hover-text-main-600"
+                  >
+                    +1 (555) 123-4567
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="d-sm-block d-none">
+              <a
+                href="mailto:contact@visafy.com"
+                class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-3 group active--translate-y-2 rounded-pill"
+                data-block="button"
+              >
+                <span class="button__flair"></span>
+                <span
+                  class="text-white tw-text-lx group-hover-text-white tw-duration-500 position-relative"
+                >
+                  <i class="ph-bold ph-envelope-simple"></i>
+                </span>
+                <span class="button__label">contact@visafy.com</span>
+              </a>
+            </div>
+          </div>
+          <button
+            type="button"
+            class="toggle-mobileMenu leading-none d-xl-none ms-3 text-neutral-800 tw-text-9"
+          >
+            <i class="ph ph-list"></i>
+          </button>
+          <!-- Header Right End  -->
+        </nav>
+      </div>
+    </header>
+    <!-- ==================== Header End Here ==================== -->
+
+    <!-- ==================== Breadcrumb Start Here ==================== -->
+    <section class="breadcrumb-section">
+      <div class="container max-w-1760-px">
+        <div
+          style="background-image: url(assets/images/bg/breadcrunb-bg-img.png)"
+          class="breadcrumb mb-0 bg-img tw-py-180-px tw-rounded-3xl"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <div>
+                  <div class="d-flex align-items-center tw-gap-2 flex-wrap">
+                    <span class="tw-text-7 text-green-600 d-flex">
+                      <i class="ph-bold ph-paper-plane-tilt"></i>
+                    </span>
+                    <span class="fw-medium tw-text-405 text-black">
+                      Study, Work, or Settle Abroad with 100% Legal Support
+                    </span>
+                  </div>
+                  <h2
+                    class="tw-mt-2 text-paragraph-950 fw-medium tw-text-90-px"
+                  >
+                    Contact Us
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== Breadcrumb End Here ==================== -->
+
+    <!-- ====================== contact section start ===================== -->
+    <div class="pt-120 pb-146">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-sm-6">
+            <div class="group">
+              <div
+                class="bg-white tw-rounded-lg contaict-sahdow tw-py-16 tw-px-13 text-center group-hover-bg-main-600 tw-duration-300"
+              >
+                <span
+                  class="d-inline-flex tw-text-16 text-main-600 tw-mb-5 group-hover-text-white tw-duration-300"
+                >
+                  <i class="ph ph-map-pin"></i>
+                </span>
+                <h2
+                  class="h5 fw-semibold tw-text-24-px text-black text-uppercase d-block tw-mb-4 group-hover-text-white tw-duration-300"
+                >
+                  address line
+                </h2>
+                <p
+                  class="fw-medium tw-text-405 text-paragraph-750 group-hover-text-white tw-duration-300"
+                >
+                  Bowery St, New York, 37 USA NY 10013,USA
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="group">
+              <div
+                class="bg-white tw-rounded-lg contaict-sahdow tw-py-16 tw-px-13 text-center group-hover-bg-main-600 tw-duration-300"
+              >
+                <span
+                  class="d-inline-flex tw-text-16 text-main-600 tw-mb-5 group-hover-text-white tw-duration-300"
+                >
+                  <i class="ph ph-phone-call"></i>
+                </span>
+                <h2
+                  class="h5 fw-semibold tw-text-24-px text-black text-uppercase d-block tw-mb-4 group-hover-text-white tw-duration-300"
+                >
+                  Phone Number
+                </h2>
+                <p
+                  class="fw-medium tw-text-405 text-paragraph-750 group-hover-text-white tw-duration-300"
+                >
+                  +1255 - 568 - 6523 4374-221 +1255 - 568 - 6523
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="group">
+              <div
+                class="bg-white tw-rounded-lg contaict-sahdow tw-py-16 tw-px-13 text-center group-hover-bg-main-600 tw-duration-300"
+              >
+                <span
+                  class="d-inline-flex tw-text-16 text-main-600 tw-mb-5 group-hover-text-white tw-duration-300"
+                >
+                  <i class="ph ph-envelope-open"></i>
+                </span>
+                <h2
+                  class="h5 fw-semibold tw-text-24-px text-black text-uppercase d-block tw-mb-4 group-hover-text-white tw-duration-300"
+                >
+                  Mail Address
+                </h2>
+                <p
+                  class="fw-medium tw-text-405 text-paragraph-750 group-hover-text-white tw-duration-300"
+                >
+                  contact@visafy.com info@visafy.com
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tw-mt-90-px">
+          <div class="row gy-4">
+            <div class="col-lg-6">
+              <div class="max-w-580-px">
+                <h3 class="tw-text-42-px tw-mb-3 text-paragraph-800 fw-medium">
+                  Get in touch
+                </h3>
+                <p class="fw-normal tw-text-405 text-paragraph-750 tw-mb-10">
+                  Our visa consulting services provide expert guidance for
+                  international students and professionals. We offer
+                  comprehensive document preparation, application support, and
+                  personalized consultation for successful visa approval.
+                </p>
+                <div class="tw-h-320-px tw-mb-5">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d18594861.431429405!2d25.097591251485795!3d54.811518433582705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssea!5e0!3m2!1sen!2sbd!4v1752124108423!5m2!1sen!2sbd"
+                    class="w-100 h-100 tw-rounded-xl"
+                  >
+                  </iframe>
+                </div>
+                <!-- Google Map end -->
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="max-w-560-px">
+                <h3 class="tw-text-42-px tw-mb-3 text-paragraph-800 fw-medium">
+                  Fill Up The Form
+                </h3>
+                <p class="fw-normal tw-text-405 text-paragraph-750 tw-mb-17">
+                  Your email address will not be published. Required fields are
+                  marked *
+                </p>
+                <form action="#">
+                  <div class="position-relative tw-mb-10">
+                    <input
+                      type="text"
+                      placeholder="Enter your full name*"
+                      class="tw-ps-7 tw-pe-4 tw-pb-5 w-100 border-neutral-200 border-top-0 border-start-0 border-end-0 focus-border-main-600 focus-outline-0"
+                    />
+                    <button
+                      type="button"
+                      class="tw-text-5 text-black position-absolute top-0 tw-start-0"
+                    >
+                      <i class="ph ph-user"></i>
+                    </button>
+                  </div>
+                  <div class="position-relative tw-mb-10">
+                    <input
+                      type="email"
+                      placeholder="Email Address*"
+                      class="tw-ps-7 tw-pe-4 tw-pb-5 w-100 border-neutral-200 border-top-0 border-start-0 border-end-0 focus-border-main-600 focus-outline-0"
+                    />
+                    <button
+                      type="button"
+                      class="tw-text-5 text-black position-absolute top-0 tw-start-0"
+                    >
+                      <i class="ph ph-envelope-simple"></i>
+                    </button>
+                  </div>
+                  <div class="position-relative tw-mb-10">
+                    <textarea
+                      placeholder="Enter Your Message here"
+                      class="tw-ps-7 tw-pe-4 tw-pb-5 w-100 border-neutral-200 border-top-0 border-start-0 border-end-0 focus-border-main-600 focus-outline-0 tw-h-150-px"
+                    ></textarea>
+                    <button
+                      type="button"
+                      class="tw-text-5 text-black position-absolute top-0 tw-start-0"
+                    >
+                      <i class="ph ph-pencil-simple-line"></i>
+                    </button>
+                  </div>
+                  <button
+                    type="submit"
+                    class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-2 group active--translate-y-2 tw-rounded-lg"
+                    data-block="button"
+                  >
+                    <span class="button__flair"></span>
+                    <span
+                      class="text-white tw-text-xl group-hover-text-white tw-duration-500 position-relative"
+                    >
+                      <i class="ph ph-paper-plane-tilt"></i>
+                    </span>
+                    <span class="button__label">Get In Touch</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ====================== contact section end ===================== -->
+
+    <!-- ======================== footer section start ======================== -->
+    <section class="bg-main-two-600 pt-100">
+      <div class="container max-w-1400-px">
+        <div
+          class="tw-pb-15 d-flex flex-wrap align-items-center justify-content-between tw-gap-8"
+        >
+          <div class="">
+            <h2
+              class="h4 fw-lighter tw-text-42-px text-white fst-italic tw-mb-4 text-uppercase"
+            >
+              need visa for abroad?
+            </h2>
+            <div class="d-flex align-items-center tw-gap-1 flex-wrap">
+              <h2 class="h4 fw-bold tw-text-42-px text-white text-uppercase">
+                send me an e-mail -
+              </h2>
+              <h2
+                class="h4 fw-bold tw-text-42-px text-green-700 text-decoration-underline"
+              >
+                info@visafy.com
+              </h2>
+            </div>
+          </div>
+          <div class="hover-parallax-wrapper">
+            <a
+              href="contact-us.html"
+              class="hover-parallax-item btn btn-main-two hover-style-two button--stroke active-scale-094 tw-duration-100 d-flex flex-column align-items-center justify-content-center tw-gap-2 tw-px-4 group active--translate-y-2 d-flex tw-w-140-px tw-h-140-px rounded-circle"
+              data-block="button"
+            >
+              <span class="button__flair"></span>
+              <span
+                class="text-white tw-text-xl tw-duration-500 position-relative"
+              >
+                <img src="assets/images/icon/arrow-top-right.png" alt="Icon" />
+              </span>
+              <span class="button__label d-block text-neutral-900 fw-semibold"
+                >Get in tocuh</span
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tw-pb-134-px">
+        <div class="container max-w-1400-px">
+          <div class="row gy-5">
+            <div
+              class="col-xl-6 col-lg-4 col-sm-6 aos-init aos-animate"
+              data-aos="fade-up"
+              data-aos-duration="400"
+            >
+              <!-- Google Map start -->
+              <div class="tw-mb-5">
+                <img src="assets/images/shape/global-map.png" alt="Map Image" />
+                <!-- <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d18594861.431429405!2d25.097591251485795!3d54.811518433582705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssea!5e0!3m2!1sen!2sbd!4v1752124108423!5m2!1sen!2sbd"
+                            class="w-100 h-100"></iframe> -->
+              </div>
+              <!-- Google Map end -->
+              <div class="d-flex align-items-center tw-gap-4 flex-wrap">
+                <button
+                  type="button"
+                  class="fw-medium tw-text-405 text-white hover-text-green-700 tw-duration-300"
+                >
+                  SOLUTIONS
+                </button>
+                <button
+                  type="button"
+                  class="fw-medium tw-text-405 text-white hover-text-green-700 tw-duration-300"
+                >
+                  WORKS
+                </button>
+                <button
+                  type="button"
+                  class="fw-medium tw-text-405 text-white hover-text-green-700 tw-duration-300"
+                >
+                  INSIGHTS
+                </button>
+                <button
+                  type="button"
+                  class="fw-medium tw-text-405 text-white hover-text-green-700 tw-duration-300"
+                >
+                  ABOUT
+                </button>
+                <button
+                  type="button"
+                  class="fw-medium tw-text-405 text-white hover-text-green-700 tw-duration-300"
+                >
+                  WE HIRE
+                </button>
+              </div>
+            </div>
+            <div
+              class="col-xl-2 col-lg-4 col-sm-6 aos-init aos-animate"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+              <div class="">
+                <h2
+                  class="h5 cursor-big fw-medium text--white tw-mb-8 tw-text-505"
+                >
+                  Our Devision
+                </h2>
+                <ul class="d-flex flex-column tw-gap-4">
+                  <li>
+                    <a
+                      href="about-us.html"
+                      class="text--white hover-text-white hover-underline"
+                      >About Us</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >Our Services</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >Our Team</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >Open Positions</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >Carers</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >FAQ Page</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >Our Clients</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="col-xl-2 col-lg-4 col-sm-6 aos-init aos-animate"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            >
+              <div class="">
+                <h2
+                  class="h5 cursor-big fw-medium text--white tw-mb-8 tw-text-505"
+                >
+                  My account
+                </h2>
+                <ul class="d-flex flex-column tw-gap-4">
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >Contact Us</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >FAQ Page</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >Get In Touch</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >Global Network</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >Suport 24/7</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="col-xl-2 col-lg-4 col-sm-6 aos-init aos-animate"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <div class="">
+                <h2
+                  class="h5 cursor-big fw-medium text--white tw-mb-8 tw-text-505"
+                >
+                  Service
+                </h2>
+                <ul class="d-flex flex-column tw-gap-4">
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >Tourist/Visit visa</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >Student visa</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >Work permit</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >Skilled migration</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >Business/investor visa</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >Family/spouse/partner visa</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(0)"
+                      class="text--white hover-text-white hover-underline"
+                      >Visa renewal</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================ footer bottom start ============== -->
+      <div class="container max-w-1400-px">
+        <div class="tw-border-white-12-persent tw-pt-6 tw-pb-9">
+          <div
+            class="d-flex align-items-center justify-content-between tw-gap-3 flex-wrap"
+          >
+            <p class="fw-medium tw-text-4 text-white">
+              Developed By Abid Azam Khan · CEO of Unipixer
+            </p>
+            <span class="fw-medium tw-text-4 text-white">
+              Saturday - Thursday
+            </span>
+            <div class="max-w-460-px w-100">
+              <form
+                action="#"
+                class="d-flex align-items-center tw-gap-3 flex-wrap tw-mb-7"
+              >
+                <div class="position-relative">
+                  <input
+                    type="email"
+                    placeholder="Email Address"
+                    class="fw-medium tw-text-305 text-white bg-white-08 tw-py-4 tw-ps-11 tw-pe-4 border border-white-12 focus-border-main-600 tw-rounded-lg focus-outline-0"
+                  />
+                  <span
+                    class="tw-text-lg text-white position-absolute top-0 tw-start-0 top-50 translate-middle-y tw-ms-3"
+                  >
+                    <i class="ph-bold ph-envelope"></i>
+                  </span>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-main-two hover-style-two button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-2 group active--translate-y-2 tw-rounded-xl"
+                  data-block="button"
+                >
+                  <span class="button__flair"></span>
+                  <span class="button__label">Sign Up</span>
+                  <span
+                    class="text-white tw-text-xl group-hover-text-white tw-duration-500 position-relative"
+                  >
+                    <i class="ph-bold ph-caret-right"></i>
+                  </span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ================ footer bottom end ============== -->
+    </section>
+
+    <!-- ======================== footer section end ======================== -->
+
+    <!-- Jquery js -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- phosphor Js -->
+    <script src="assets/js/phosphor-icon.js"></script>
+    <!-- Bootstrap Bundle Js -->
+    <script src="assets/js/boostrap.bundle.min.js"></script>
+    <!-- aos -->
+    <script src="assets/js/aos.js"></script>
+    <!-- swipeer bundle -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- marquee js -->
+    <script src="assets/js/marquee-main.js"></script>
+    <!-- GSAP js -->
+    <script src="assets/js/gsap.min.js"></script>
+    <!-- SplitText -->
+    <script src="assets/js/SplitText.min.js"></script>
+    <!-- magnific popup -->
+    <script src="assets/js/magnific-popup.js"></script>
+    <!-- Scroll Trigger -->
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <!-- custom GSAP -->
+    <script src="assets/js/custom-gsap.js"></script>
+
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

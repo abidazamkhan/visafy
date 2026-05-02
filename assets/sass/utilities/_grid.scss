@@ -1,0 +1,31 @@
+/* grid css start */
+.grid-cols-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.xs-grid-cols-2 {
+    @media (min-width: 425px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.grid-col-5 {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+
+.grid-col-6 {
+    grid-template-columns: 1fr 1fr;
+    @media (min-width: 425px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media (min-width: 768px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    @media (min-width: 1100px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    @media (min-width: 1360px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+/* grid css end */

@@ -1,0 +1,35 @@
+/* ================================= Tab Css Start =========================== */
+.common-tab {
+    .nav-item {
+        .nav-link {
+            &.active {
+                color: hsl(var(--white)) !important; 
+                border-color: hsl(var(--main)) !important;
+            }
+            &:hover {
+                color: var(--main-600);
+            }
+        }
+    }
+}
+
+
+.nav-pills .nav-link:hover {
+    color: var(--neutral-900);
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: transparent !important;
+    color: var(--main-600) !important; 
+    font-weight: 600 !important;
+    border-bottom-color: var(--main-600);
+    border-radius: 0;
+}
+
+
+.nav-pills-two .nav-link-two.active {
+    background-color: #00CC99 !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    border-radius: 20px;
+}
+/* ================================= Tab Css End =========================== */

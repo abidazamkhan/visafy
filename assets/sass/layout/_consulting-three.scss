@@ -1,0 +1,45 @@
+.consultion-text {
+    display: none !important;
+    transition: .4s !important;
+}
+
+.consultion-card {
+    transition: .4s !important;
+
+    &:hover {
+        .consultion-text {
+            display: block !important;
+        }
+
+        .consultion-bg {
+            background-color: #3D66F8 !important;
+            border: none;
+            border-radius: 14px;
+        }
+
+        .consultion-title {
+            color: #ffffff !important;
+        }
+    }
+}
+
+.consultion-card {
+    transition: .4s;
+}
+
+
+.circle-green-shape {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 20px;
+        left: -10px;
+        bottom: -10px;
+        background: var(--green-700);
+        border-radius: 50%;
+        z-index: 1;
+    }
+}
